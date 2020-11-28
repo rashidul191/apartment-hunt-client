@@ -1,3 +1,18 @@
 .header-main-bg{
     background-image: url('../../../images/Rectangle 13.png');
+    height: auto;
+    width: 100%;
+}
+
+.header-main-font{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0,.6);
+}
+.header-main-font-style{
+    text-align: center;
+    margin-top: 0 auto;
+}
+.from-style{
+    
 }

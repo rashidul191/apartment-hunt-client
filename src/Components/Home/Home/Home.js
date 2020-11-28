@@ -7,7 +7,10 @@ const Home = () => {
         <section>
             <div>
                 <Navbar></Navbar>
-                <HeaderMain></HeaderMain>
+                
+            </div>
+            <div>
+            <HeaderMain></HeaderMain>
             </div>
         </section>
     );
