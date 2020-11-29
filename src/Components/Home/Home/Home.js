@@ -1,7 +1,9 @@
 import React from 'react';
-import HouseRent from '../../HouseRent/HouseRent';
 import Navbar from '../../Sharing/Navbar/Navbar';
 import HeaderMain from '../HeaderMain/HeaderMain';
+import HouseRentBody from '../HouseRentBody/HouseRentBody';
+
+
 
 const Home = () => {
     return (
@@ -13,7 +15,7 @@ const Home = () => {
                 <HeaderMain></HeaderMain>
             </div>
             <div>
-                <HouseRent></HouseRent>
+                <HouseRentBody></HouseRentBody>
             </div>
         </section>
     );

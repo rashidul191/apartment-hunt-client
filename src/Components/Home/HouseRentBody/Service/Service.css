@@ -1,0 +1,17 @@
+
+.service-body{
+   text-align: center;
+    
+}
+
+.img-position-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-img{
+    height: 100px;
+    width: 100px;
+   
+}
