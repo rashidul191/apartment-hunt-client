@@ -1,0 +1,30 @@
+.login-body{
+    height: auto;
+    width: 100%;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-body{
+    height: auto;
+    width: 32%;
+    border: 1px solid black;
+    margin: 100px;
+    padding: 20px;
+    
+}
+
+.login-btn-main{
+    border: none;
+    height: 45px;
+    width: 100%;
+    background-color: #275A53;
+    color: white;
+}
+
+.underline-text{
+    color:#275A53 ;
+}

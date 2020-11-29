@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import siteLogo from '../../../logos/Logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -34,7 +35,7 @@ const Navbar = () => {
                                         <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item active mr-4">
-                                        <button className="login-btn">Login</button>
+                                       <Link to="/login"> <button className="login-btn">Login</button> </Link>
                                     </li>
 
                                 </ul>
