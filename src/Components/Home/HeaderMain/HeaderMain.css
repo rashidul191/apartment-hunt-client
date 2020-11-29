@@ -19,3 +19,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.find-btn{
+    border: none;
+    height: 50px;
+    width: 130px;
+    background-color: #275A53;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}

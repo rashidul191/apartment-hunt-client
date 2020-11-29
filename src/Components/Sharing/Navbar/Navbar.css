@@ -1,4 +1,17 @@
+.nav-bar{
+    padding: 0 50px;
+}
+
 .siteLogo{
     height: 30%;
     width: 30%;
+}
+
+.login-btn{
+    background-color: #275A53;
+    border: none;
+    height: 45px;
+    width: 85px;
+    border-radius: 5px;
+    color: white;
 }

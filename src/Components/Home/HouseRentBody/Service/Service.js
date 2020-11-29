@@ -9,34 +9,38 @@ const Service = () => {
         <section>
             <div className="container">
                 <div className="service-body pt-5">
-                    <h6><small>Service</small></h6>
+                    <h6>Service</h6>
                     <h2>We're an agency tailored to all <br /> client's needs that always delivers</h2>
                     <div className="pt-4">
-                        <div class="card-deck">
-                            <div class="card">
+                        <div class="row">
+                            <div class="col-md-4">
                                 <div className="img-position-size">
                                     <img src={apartment1} class="card-img-top service-img" alt="..." />
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Wide Range of Properties</h5>
+                                    <p class="card-text">With a robust selection of popular properties on hand, as well as leading properties from experts.</p>
+                                   
                                 </div>
                             </div>
-                            <div class="card">
-                                <img src={affordable1} class="card-img-top service-img" alt="..." />
+                            <div class="col-md-4">
+                                <div className="img-position-size">
+                                    <img src={affordable1} class="card-img-top service-img" alt="..." />
+                                </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Financing Made Easy</h5>
+                                    <p class="card-text">Our stress-free finance department that can find financial solutions to save you money</p>
+                                    
                                 </div>
                             </div>
-                            <div class="card">
-                                <img src={lessee1} class="card-img-top service-img" alt="..." />
+                            <div class="col-md-4">
+                                <div className="img-position-size">
+                                    <img src={lessee1} class="card-img-top service-img" alt="..." />
+                                </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Trusted by Thousands</h5>
+                                    <p class="card-text">10 new offers every day. 350 offers on site, trusted by a community of thousands of users.</p>
+                                    
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,7 @@
 
 .service-body{
    text-align: center;
+   color: #275A53;
     
 }
 
@@ -11,7 +12,9 @@
 }
 
 .service-img{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
    
 }
+
+

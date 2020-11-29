@@ -1,6 +1,9 @@
-*{
-    padding:0 0 0 0;
-    margin: 0 0 0 0;
+.house-text{
+    text-align: center;
+    color: #275A53;    
+}
+.house-body-padding{
+    padding: 0 25px;
 }
 .icon-size{
     height: 23px;
@@ -19,8 +22,10 @@
 .btn-view{
     height: 100%;
     width: 100%;
-    background-color: blue;
-    
+    background-color: #275A53;
     color: white;
     border: none;
+}
+h1{
+    color:#275A53 ;
 }

@@ -15,11 +15,11 @@ const HouseRent = () => {
     return (
         <section>
             <div className="container">
-                <div className="text-center pt-3">
-                    <h6><small>House Rent</small></h6>
+                <div className="house-text pt-3">
+                    <h6>House Rent </h6>
                     <h2>Discover the latest Rent <br/>available today</h2>
                 </div>
-                <div className="">
+                <div className="house-body-padding">
                     <div className=" pt-3">
                         <div class="card-deck">
                             <div class="card">

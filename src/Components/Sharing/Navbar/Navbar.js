@@ -5,9 +5,9 @@ import siteLogo from '../../../logos/Logo.png';
 const Navbar = () => {
     return (
         <section className="container ">
-            <div className="container bg-light">
-                <div className="container">
-                    <div className="container">
+            <div className=" bg-light">
+                <div className="nav-bar">
+                   
                         <nav class="navbar navbar-expand-lg navbar-light ">
                             <a class="navbar-brand" href="#"><img className="siteLogo" src={siteLogo} alt="" /></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,13 +34,13 @@ const Navbar = () => {
                                         <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item active mr-4">
-                                        <button className="btn btn-info">Login</button>
+                                        <button className="login-btn">Login</button>
                                     </li>
 
                                 </ul>
                             </div>
                         </nav>
-                    </div>
+                  
                 </div>
             </div>
         </section>
