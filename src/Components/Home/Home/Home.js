@@ -1,4 +1,5 @@
 import React from 'react';
+import Apartment from '../../Sharing/Apartment/Apartment';
 import Footer from '../../Sharing/Footer/Footer';
 import Navbar from '../../Sharing/Navbar/Navbar';
 import HeaderMain from '../HeaderMain/HeaderMain';
@@ -21,6 +22,7 @@ const Home = () => {
             <div>
                 <Footer></Footer>
             </div>
+            <Apartment></Apartment>
         </section>
     );
 };

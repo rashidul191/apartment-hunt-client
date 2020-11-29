@@ -1,0 +1,19 @@
+.apartment-bg{
+    height: auto;
+    width: 100%;
+    background-image: url("../../../images/Rectangle\ 13.png");
+    
+}
+.apartment-body{
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.apartment-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 80px;
+}

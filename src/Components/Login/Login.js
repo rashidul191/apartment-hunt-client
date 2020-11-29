@@ -11,7 +11,7 @@ const Login = () => {
                 </div>
                 <div className="login-form">
                     <div className="login-form-body">
-                        <form action="">
+                        <form  action=" ">
                             <h3>Login</h3><br/>
                             <input type="text" className="form-control" placeholder="Username or Email" required /><br/>
                             <input type="password" className="form-control" name="" id="" placeholder="Password" required /><br/>
@@ -32,6 +32,7 @@ const Login = () => {
                             <h6 className="text-center">Don't have an account? <u className="underline-text">Create an account</u></h6>
                         </form>
                     </div>
+                   
                 </div>
             </div>
         </section>
