@@ -1,0 +1,18 @@
+.icon-size{
+    height: 25px;
+    width: 20px;
+}
+
+.dollar-text{
+    font-size: 2rem;
+    
+}
+
+.btn-view{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+    border: none;
+}

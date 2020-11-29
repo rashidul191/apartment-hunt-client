@@ -5,14 +5,17 @@
 }
 
 .header-main-font{
-    height: 300px;
+    height: auto;
     width: 100%;
     background-color: rgba(0, 0, 0,.6);
 }
 .header-main-font-style{
     text-align: center;
-    margin-top: 0 auto;
-}
-.from-style{
+     padding:100px;
     
+}
+.from-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

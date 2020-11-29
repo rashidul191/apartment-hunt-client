@@ -9,14 +9,13 @@ const HeaderMain = () => {
                     <div className="header-main-font">
                         <div className="header-main-font-style">
                             <h1 className="text-white">FIND YOUR HOUSE RENT</h1>
-
-                            
-                            <div className="from-style">
+                            <br />
+                            <div className="from-center">
                                 <form class="form-inline">
                                     <div class="form-group mx-sm-3 mb-2">
-                                        <input type="text" class="form-control" placeholder="" />
+                                        <input type="text" class="form-control" placeholder="search.........." />
                                     </div>
-                                    <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                                    <button type="submit" class="btn btn-primary mb-2">Find Now</button>
                                 </form>
                             </div>
                         </div>
